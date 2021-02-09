@@ -4,7 +4,7 @@ var http = require('http');
 var util = require('util');
 var querystring = require('querystring');
 
-Blync = require('./blync');
+Blync = require('./src/blync');
 var device = Blync.getDevice(0);
 
 process.on( 'SIGINT', function() {

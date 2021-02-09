@@ -1,4 +1,4 @@
-Blync = require('./blync');
+Blync = require('./src/blync');
 var device = Blync.getDevice(0);
 
 function wait(seconds=5) {
